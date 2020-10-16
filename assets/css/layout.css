@@ -1,0 +1,6 @@
+body {
+  margin: 0; }
+  body #website-main {
+    width: 100%;
+    height: 80%;
+    background-color: honeydew; }

@@ -1,0 +1,79 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: #004747; }
+  #header #header-left {
+    display: flex;
+    width: 17%;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between; }
+    #header #header-left #website-logo {
+      height: 50px;
+      width: 50px; }
+    #header #header-left a {
+      text-decoration: none; }
+      #header #header-left a h1 {
+        color: white; }
+  #header #header-right {
+    display: flex;
+    justify-content: space-around;
+    width: 22%;
+    margin-right: 10px;
+    overflow: hidden; }
+    #header #header-right a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; }
+    #header #header-right .dropdown {
+      float: left;
+      overflow: hidden; }
+    #header #header-right .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+      font-weight: bold; }
+    #header #header-right a:hover, #header #header-right .dropdown:hover .dropbtn {
+      background-color: honeydew;
+      color: black; }
+    #header #header-right .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+    #header #header-right .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left; }
+    #header #header-right .dropdown-content a:hover {
+      background-color: #ddd; }
+    #header #header-right .dropdown:hover .dropdown-content {
+      display: block; }
+    #header #header-right .header-buttons {
+      height: fit-content;
+      width: fit-content; }
+      #header #header-right .header-buttons a {
+        text-decoration: none;
+        color: white;
+        height: auto;
+        width: auto;
+        font-size: 1.3rem;
+        font-weight: bold; }
+      #header #header-right .header-buttons a:hover {
+        color: black; }

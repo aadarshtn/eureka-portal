@@ -1,0 +1,6 @@
+#website-main {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #website-main #sign-up-category-div {
+    position: absolute; }

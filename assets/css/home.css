@@ -1,0 +1,9 @@
+body #job-search-section {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding: 20px; }
+  body #job-search-section .input-boxes {
+    border: none;
+    width: 200px;
+    height: 30px; }
